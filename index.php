@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * 入口文件
  * 1.定义常量
@@ -20,6 +20,6 @@ include CORE.'/common/function.php';
 
 include CORE.'/app.php';
 
-spl_autoload_register('\core\app::load');//自动加载累
+spl_autoload_register('\core\app::load');//自动加载类
 \core\app::run();
 
